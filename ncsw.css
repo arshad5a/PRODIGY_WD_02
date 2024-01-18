@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    color: #040404;
+    margin-top: 30px;
+    background-color: rgb(187, 230, 244);
+  }
+  
+  .stopwatch {
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #010101;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow:   rgba(0,0,0,0.4) 0px 2px 4px,
+                  rgba(0,0,0,0.3) 0px 7px 13px-3px,
+                  rgba(0,0,0,0.2) 0px -3px 0px inset;
+  }
+  
+  #display {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #141313;
+    border: none;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px,
+    rgba(0,0,0,0.4) 0px 7px 13px-3px,
+    rbga(0,0,0,0.2) 0px -3px 0px inset;
+  }
+  
+  button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #141313;
+    color: #ffffff;
+    border: 3px solid #b6b6b6;
+  }
+  
